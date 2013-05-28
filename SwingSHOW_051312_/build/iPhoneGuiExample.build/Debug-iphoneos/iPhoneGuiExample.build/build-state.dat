@@ -1,1305 +1,0 @@
-TiPhoneGuiExample
-v5
-r1
-cCheck dependencies
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/iPhoneGuiExample.app/ResourceRules.plist
-cProcessInfoPlistFile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Info.plist ofxiphone-Info.plist
-cCopyPNGFile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Default.png bin/data/Default.png
-cCpResource Project.xcconfig build/Debug-iphoneos/iPhoneGuiExample.app/Project.xcconfig
-cCopyPlistFile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/ofxiphone-Info.plist ofxiphone-Info.plist
-cCopyPNGFile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Icon.png bin/data/Icon.png
-cCpResource ../../../libs/openFrameworksCompiled/project/iphone/CoreOF.xcconfig build/Debug-iphoneos/iPhoneGuiExample.app/CoreOF.xcconfig
-cCompileXIB /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.xib
-cCpResource bin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/sewingMusic.wav build/Debug-iphoneos/iPhoneGuiExample.app/sewingMusic.wav
-cCpResource bin/data/sewingMusic.wav build/Debug-iphoneos/iPhoneGuiExample.app/sewingMusic.wav
-cCpResource bin/data/boatThunder.wav build/Debug-iphoneos/iPhoneGuiExample.app/boatThunder.wav
-cCpResource bin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/boatThunder.wav build/Debug-iphoneos/iPhoneGuiExample.app/boatThunder.wav
-cCpResource bin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/Highline_trainBirds.wav build/Debug-iphoneos/iPhoneGuiExample.app/Highline_trainBirds.wav
-cCpResource bin/data/highline.wav build/Debug-iphoneos/iPhoneGuiExample.app/highline.wav
-cCpResource bin/data/map.jpg build/Debug-iphoneos/iPhoneGuiExample.app/map.jpg
-cCopyPNGFile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/button.png bin/data/button.png
-cCopyPNGFile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/buttonOff.png bin/data/buttonOff.png
-cProcessPCH++ /var/folders/m3/h5rg_z_d6lz3ysb_jm0hy_140000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-eigpioxejzwlsyafgwiwtvdbnkqx/iPhone_Prefix.pch.pth iPhone_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/main.o /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/main.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/testApp.o /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/MyGuiView.o /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/iPhoneGuiExample normal armv7
-cGenerateDSYMFile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app.dSYM /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/iPhoneGuiExample
-cPhaseScriptExecution "Run Script" /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Script-9255DD331112741900D6945E.sh
-cProcessProductPackaging "/Users/Claire/Library/MobileDevice/Provisioning Profiles/1E1AF6A7-AFEF-4C1D-AD1A-B431A04FBAF3.mobileprovision" /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/embedded.mobileprovision
-cProcessProductPackaging "/Users/Claire/Library/MobileDevice/Provisioning Profiles/1E1AF6A7-AFEF-4C1D-AD1A-B431A04FBAF3.mobileprovision" /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/embedded.mobileprovision
-cTouch /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample.xcent
-cCodeSign /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
-c000000004F453DF20000000000000110
-t1329937906
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
-c000000004F85FA2600000000000001A7
-t1334180390
-s423
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
-c000000004F85FA2600000000000001E5
-t1334180390
-s485
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c000000004F85FA2F000000000015B230
-t1334180399
-s1421872
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004F85FA2F00000000005C33D0
-t1334180399
-s6042576
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004F85FA3000000000003AE430
-t1334180400
-s3859504
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004F85FA31000000000007C770
-t1334180401
-s509808
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
-c000000004F85FA310000000000075200
-t1334180401
-s479744
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c000000004F85FA31000000000001BD60
-t1334180401
-s114016
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004F85FA32000000000052C940
-t1334180402
-s5425472
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004F85FA320000000000001534
-t1334180402
-s5428
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004F85FA3400000000000B1AA0
-t1334180404
-s727712
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c000000004F85FA350000000000257F70
-t1334180405
-s2457456
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
-c000000004F85FA350000000000023A10
-t1334180405
-s145936
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c000000004F85FA380000000000018700
-t1334180408
-s100096
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004F85FA390000000000175AA0
-t1334180409
-s1530528
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004F85FA390000000000000BF5
-t1334180409
-s3061
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004F85FA3B0000000000798EA0
-t1334180411
-s7966368
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxAccelerometer/src/ofxAccelerometer.h
-c000000004D32582E0000000000001903
-t1295145006
-s6403
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxMultiTouch/src/ofxMultiTouch.h
-c000000004D32582E0000000000000C4C
-t1295145006
-s3148
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxMultiTouch/src/ofxMultiTouchListener.h
-c000000004DB2F58A0000000000000BB7
-t1303573898
-s2999
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxiPhone/ofxiPhone.h
-c000000004DB2F58A0000000000000840
-t1303573898
-s2112
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxiPhone/ofxiPhoneExtras.h
-c000000004DB0729C0000000000002329
-t1303409308
-s9001
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxiPhone/src/EAGLView.h
-c000000004D2F238400000000000009EE
-t1294934916
-s2542
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxiPhone/src/ESRenderer.h
-c000000004D455E08000000000000018E
-t1296391688
-s398
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxiPhone/src/SoundEngine.h
-c000000004D32F7EA0000000000004003
-t1295185898
-s16387
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxiPhone/src/ofAppiPhoneWindow.h
-c000000004E0F60980000000000000EA8
-t1309630616
-s3752
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxiPhone/src/ofxOpenALSoundPlayer.h
-c000000004D5575B80000000000000F14
-t1297446328
-s3860
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxiPhone/src/ofxiPhoneAlerts.h
-c000000004C3F4EAA0000000000000E48
-t1279217322
-s3656
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxiPhone/src/ofxiPhoneAlertsListener.h
-c000000004C3F4EAA0000000000000862
-t1279217322
-s2146
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxiPhone/src/ofxiPhoneApp.h
-c000000004DB2F58A0000000000000544
-t1303573898
-s1348
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.h
-c000000004D5594FA000000000000095C
-t1297454330
-s2396
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.h
-c000000004D5575B800000000000008A6
-t1297446328
-s2214
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.h
-c000000004D32F7EA0000000000000C99
-t1295185898
-s3225
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxiPhone/src/ofxiPhoneKeyboard.h
-c000000004E0DE8A2000000000000068E
-t1309534370
-s1678
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxiPhone/src/ofxiPhoneMapKit.h
-c000000004DB2F58A0000000000001634
-t1303573898
-s5684
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../addons/ofxiPhone/src/ofxiPhoneMapKitListener.h
-c000000004DB2F58A00000000000008AC
-t1303573898
-s2220
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/cairo/include/cairo/cairo-deprecated.h
-c000000004D55801800000000000021FA
-t1297448984
-s8698
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/cairo/include/cairo/cairo-features.h
-c000000004D558018000000000000031D
-t1297448984
-s797
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/cairo/include/cairo/cairo-pdf.h
-c000000004D5580180000000000000C24
-t1297448984
-s3108
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/cairo/include/cairo/cairo-svg.h
-c000000004D5580180000000000000ADD
-t1297448984
-s2781
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/cairo/include/cairo/cairo-version.h
-c000000004D5580180000000000000094
-t1297448984
-s148
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/cairo/include/cairo/cairo.h
-c000000004D5580180000000000016BCE
-t1297448984
-s93134
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/glu/include_iphone/glu.h
-c000000004BACCB1A0000000000001F99
-t1269615386
-s8089
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/3d/of3dUtils.h
-c000000004DBAFE04000000000000002B
-t1304100356
-s43
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/3d/ofCamera.h
-c000000004DF297A40000000000000858
-t1307744164
-s2136
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/3d/ofEasyCam.h
-c000000004D846164000000000000053C
-t1300521316
-s1340
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/3d/ofMesh.h
-c000000004E15DFD600000000000010DD
-t1310056406
-s4317
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/3d/ofNode.h
-c000000004D597A7C000000000000143C
-t1297709692
-s5180
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/app/ofAppBaseWindow.h
-c000000004E0F2BC00000000000000590
-t1309617088
-s1424
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/app/ofAppRunner.h
-c000000004DD7B3E8000000000000075D
-t1305981928
-s1885
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/app/ofBaseApp.h
-c000000004DD7B3E80000000000000377
-t1305981928
-s887
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/events/ofEventUtils.h
-c000000004DDA87260000000000000DAD
-t1306167078
-s3501
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/events/ofEvents.h
-c000000004DB071120000000000001B97
-t1303408914
-s7063
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/gl/ofFbo.h
-c000000004E283BD60000000000000E23
-t1311259606
-s3619
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/gl/ofGLRenderer.h
-c000000004E19BFA00000000000001109
-t1310310304
-s4361
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/gl/ofGLUtils.h
-c000000004E0E00180000000000000B79
-t1309540376
-s2937
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/gl/ofLight.h
-c000000004E0F6A46000000000000084C
-t1309633094
-s2124
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/gl/ofMaterial.h
-c000000004E0F6A460000000000000555
-t1309633094
-s1365
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/gl/ofShader.h
-c000000004E0E5BE00000000000000F82
-t1309563872
-s3970
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/gl/ofTexture.h
-c000000004E264F1400000000000010D0
-t1311133460
-s4304
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/gl/ofVbo.h
-c000000004E0F6A460000000000000A19
-t1309633094
-s2585
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/gl/ofVboMesh.h
-c000000004DF297A40000000000000114
-t1307744164
-s276
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/graphics/ofCairoRenderer.h
-c000000004E25C43000000000000012BF
-t1311097904
-s4799
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/graphics/ofGraphics.h
-c000000004E1340520000000000001D95
-t1309884498
-s7573
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/graphics/ofImage.h
-c000000004E15DFD80000000000002014
-t1310056408
-s8212
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/graphics/ofPath.h
-c000000004E19BFA0000000000000115A
-t1310310304
-s4442
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/graphics/ofPixels.h
-c000000004E1622C400000000000012C3
-t1310073540
-s4803
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/graphics/ofPolyline.h
-c000000004E19BFA00000000000000E9D
-t1310310304
-s3741
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/graphics/ofRendererCollection.h
-c000000004E19BFA000000000000027C6
-t1310310304
-s10182
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/graphics/ofTessellator.h
-c000000004DDA876A0000000000000459
-t1306167146
-s1113
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/graphics/ofTrueTypeFont.h
-c000000004E2319EC00000000000009F5
-t1310923244
-s2549
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/math/ofMath.h
-c000000004E19BFA00000000000000B3D
-t1310310304
-s2877
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/math/ofMatrix3x3.h
-c000000004D5575B80000000000000A4C
-t1297446328
-s2636
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/math/ofMatrix4x4.h
-c000000004D8461640000000000006D64
-t1300521316
-s28004
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/math/ofQuaternion.h
-c000000004D84616400000000000033BD
-t1300521316
-s13245
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/math/ofVec2f.h
-c000000004D922FBC000000000000407D
-t1301426108
-s16509
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/math/ofVec3f.h
-c000000004D84616400000000000061A8
-t1300521316
-s25000
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/math/ofVec4f.h
-c000000004D5575B80000000000002EC3
-t1297446328
-s11971
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/math/ofVectorMath.h
-c000000004D2F23840000000000000099
-t1294934916
-s153
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/ofMain.h
-c000000004E283BD60000000000000643
-t1311259606
-s1603
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/sound/ofBaseSoundPlayer.h
-c000000004D5575B80000000000000366
-t1297446328
-s870
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/sound/ofBaseSoundStream.h
-c000000004D8605E200000000000002D4
-t1300628962
-s724
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/sound/ofSoundPlayer.h
-c000000004E283BD60000000000000637
-t1311259606
-s1591
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/sound/ofSoundStream.h
-c000000004E2859A000000000000006DB
-t1311267232
-s1755
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/sound/ofxiPhoneSoundStream.h
-c000000004E2859A00000000000000382
-t1311267232
-s898
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/types/ofBaseTypes.h
-c000000004E2861700000000000002F01
-t1311269232
-s12033
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/types/ofColor.h
-c000000004E0F6A4600000000000013FD
-t1309633094
-s5117
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/types/ofPoint.h
-c000000004D846164000000000000003D
-t1300521316
-s61
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/types/ofRectangle.h
-c000000004DB06E6E0000000000000454
-t1303408238
-s1108
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/types/ofTypes.h
-c000000004E0F6A7A0000000000000D27
-t1309633146
-s3367
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/utils/ofConstants.h
-c000000004E2859A000000000000034C6
-t1311267232
-s13510
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/utils/ofFileUtils.h
-c000000004E25C4300000000000001D56
-t1311097904
-s7510
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/utils/ofLog.h
-c000000004E19BFA000000000000014B0
-t1310310304
-s5296
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/utils/ofSystemUtils.h
-c000000004DD7B3E200000000000001AC
-t1305981922
-s428
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/utils/ofThread.h
-c000000004D325832000000000000050C
-t1295145010
-s1292
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/utils/ofURLFileLoader.h
-c000000004E283BD600000000000008C4
-t1311259606
-s2244
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/utils/ofUtils.h
-c000000004E283BD60000000000001245
-t1311259606
-s4677
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/video/ofVideoGrabber.h
-c000000004E19BF3C00000000000009ED
-t1310310204
-s2541
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/video/ofVideoPlayer.h
-c000000004E19BF3C0000000000000ABD
-t1310310204
-s2749
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/video/ofiPhoneVideoGrabber.h
-c000000004E19BF3C000000000000032C
-t1310310204
-s812
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworks/video/ofiPhoneVideoPlayer.h
-c000000004E19BF3C0000000000000612
-t1310310204
-s1554
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworksCompiled/project/iphone/CoreOF.xcconfig
-c000000004E23193400000000000008B9
-t1310923060
-s2233
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/AbstractDelegate.h
-c000000004D2C9F7A0000000000000B59
-t1294770042
-s2905
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/AbstractEvent.h
-c000000004D2C9F7A0000000000002D7C
-t1294770042
-s11644
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/ActiveMethod.h
-c000000004D2C9F7A0000000000001C64
-t1294770042
-s7268
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/ActiveResult.h
-c000000004D2C9F7A0000000000002E66
-t1294770042
-s11878
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/ActiveRunnable.h
-c000000004D2C9F7A0000000000001785
-t1294770042
-s6021
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/ActiveStarter.h
-c000000004D2C9F7A0000000000000927
-t1294770042
-s2343
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/AtomicCounter.h
-c000000004D8461640000000000001D13
-t1300521316
-s7443
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/AutoPtr.h
-c000000004D2C9F7A0000000000001E0C
-t1294770042
-s7692
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Bugcheck.h
-c000000004D2C9F7A00000000000014A9
-t1294770042
-s5289
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/CompareFunctions.h
-c000000004D2C9F7A00000000000007EC
-t1294770042
-s2028
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Condition.h
-c000000004D2C9F7A0000000000001236
-t1294770042
-s4662
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Config.h
-c000000004D2C9F7A0000000000000E22
-t1294770042
-s3618
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Delegate.h
-c000000004D2C9F7A0000000000001828
-t1294770042
-s6184
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Event.h
-c000000004D2C9F7A0000000000000E21
-t1294770042
-s3617
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Event_POSIX.h
-c000000004D2C9F7A0000000000000A91
-t1294770042
-s2705
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Exception.h
-c000000004D5575B8000000000000283D
-t1297446328
-s10301
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Expire.h
-c000000004D2C9F7A0000000000000D0D
-t1294770042
-s3341
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/FIFOEvent.h
-c000000004D2C9F7A0000000000000B15
-t1294770042
-s2837
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/FIFOStrategy.h
-c000000004D2C9F7A0000000000001116
-t1294770042
-s4374
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/File.h
-c000000004D455E0A0000000000001F91
-t1296391690
-s8081
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/File_UNIX.h
-c000000004D2C9F7A0000000000000BC1
-t1294770042
-s3009
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Foundation.h
-c000000004D5575B800000000000010BE
-t1297446328
-s4286
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/FunctionDelegate.h
-c000000004D2C9F7A00000000000013C8
-t1294770042
-s5064
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Mutex.h
-c000000004D2C9F7C0000000000001D9F
-t1294770044
-s7583
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Mutex_POSIX.h
-c000000004D5575B80000000000000AC3
-t1297446328
-s2755
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/NotificationStrategy.h
-c000000004D2C9F7C0000000000000B48
-t1294770044
-s2888
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Platform.h
-c000000004D5575B80000000000001AF7
-t1297446328
-s6903
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Platform_POSIX.h
-c000000004D2C9F7C0000000000000843
-t1294770044
-s2115
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/RefCountedObject.h
-c000000004D2C9F7C0000000000000BB1
-t1294770044
-s2993
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Runnable.h
-c000000004D2C9F7C0000000000000861
-t1294770044
-s2145
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/ScopedLock.h
-c000000004D455E0A0000000000000B7F
-t1296391690
-s2943
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/ScopedUnlock.h
-c000000004D2C9F7C000000000000092B
-t1294770044
-s2347
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/SharedPtr.h
-c000000004D5575B80000000000002278
-t1297446328
-s8824
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/SignalHandler.h
-c000000004D2C9F7C00000000000011EB
-t1294770044
-s4587
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/SingletonHolder.h
-c000000004D2C9F7C0000000000000A67
-t1294770044
-s2663
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Thread.h
-c000000004D2C9F7C0000000000001E10
-t1294770044
-s7696
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/ThreadPool.h
-c000000004D2C9F7C0000000000001C8A
-t1294770044
-s7306
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Thread_POSIX.h
-c000000004D2C9F7C00000000000013B7
-t1294770044
-s5047
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Timestamp.h
-c000000004D2C9F7C0000000000001A41
-t1294770044
-s6721
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/poco/include/Poco/Types.h
-c000000004D5575B80000000000001926
-t1297446328
-s6438
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/tess2/include/tesselator.h
-c000000004E0E166A0000000000001C63
-t1309546090
-s7267
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/Project.xcconfig
-c000000004E27311C00000000000001C7
-t1311191324
-s455
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/Highline_trainBirds.wav
-c000000004FA199D800000000003710F0
-t1335990744
-s3608816
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/boatThunder.wav
-c000000004FA1882900000000003888AA
-t1335986217
-s3705002
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/sewingMusic.wav
-c000000004FA17ED3000000000054F066
-t1335983827
-s5566566
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/Default.png
-c000000004F8D348C000000000000EA24
-t1334654092
-s59940
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/Icon.png
-c000000004F8D329200000000000011B5
-t1334653586
-s4533
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/boatThunder.wav
-c000000004FA1882900000000003888AA
-t1335986217
-s3705002
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/button.png
-c000000004FAEBAAF0000000000000B22
-t1336851119
-s2850
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/buttonOff.png
-c000000004FAEBABD0000000000000B1E
-t1336851133
-s2846
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/highline.wav
-c000000004FA19B26000000000030E330
-t1335991078
-s3203888
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/map.jpg
-c000000004FADA52A000000000001E899
-t1336780074
-s125081
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/sewingMusic.wav
-c000000004FA17ED3000000000054F066
-t1335983827
-s5566566
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app
-t1336938055
-s816
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app.dSYM
-t1336938048
-s102
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/CoreOF.xcconfig
-t1336851871
-s2233
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Default.png
-t1336938049
-s59940
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Highline_trainBirds.wav
-t1336938049
-s6944080
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Icon.png
-t1336938049
-s4533
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Info.plist
-t1336851871
-s990
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/MyGuiView.nib
-t1336938047
-s3605
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/PkgInfo
-t1336851871
-s8
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Project.xcconfig
-t1336851871
-s455
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/ResourceRules.plist
-t1336851871
-s485
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/boatThunder.wav
-t1336938049
-s3705002
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/button.png
-t1336938049
-s2850
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/buttonOff.png
-t1336938049
-s2846
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/embedded.mobileprovision
-t1336851891
-s22355
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/highline.wav
-t1336938049
-s3203888
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/iPhoneGuiExample
-t1336938055
-s5332336
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/map.jpg
-t1336938049
-s125081
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/ofxiphone-Info.plist
-t1336851871
-s603
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/sewingMusic.wav
-t1336938049
-s5566566
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/MyGuiView.o
-t1336937933
-s164472
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/iPhoneGuiExample.LinkFileList
-c000000004FAEBD9F0000000000000269
-t1336851871
-s617
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/main.o
-t1336937933
-s99828
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/testApp.o
-t1336937933
-s249088
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Script-9255DD331112741900D6945E.sh
-c000000004FAEBD9F0000000000000041
-t1336851871
-s65
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample.xcent
-t1336851891
-s406
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/iPhone_Prefix.pch
-c000000004E27311C00000000000000B5
-t1311191324
-s181
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/ofxiphone-Info.plist
-c000000004E27311C0000000000000428
-t1311191324
-s1064
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.h
-c000000004FAECF77000000000000038B
-t1336856439
-s907
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.mm
-c000000004FAED1670000000000001185
-t1336856935
-s4485
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.xib
-c000000004FB00E680000000000007C3A
-t1336938088
-s31802
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/main.mm
-c000000004BACCB1A00000000000000A0
-t1269615386
-s160
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h
-c000000004FB00DBC0000000000000C1D
-t1336937916
-s3101
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.mm
-c000000004FB00DBE0000000000003EDD
-t1336937918
-s16093
-
-N/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/libs/openFrameworksCompiled/lib/iphone/libofxiPhone_iphoneos_Debug.a
-c000000004FAEBD9F0000000001EFF090
-t1336851871
-s32501904
-
-N/Users/Claire/Library/MobileDevice/Provisioning Profiles/1E1AF6A7-AFEF-4C1D-AD1A-B431A04FBAF3.mobileprovision
-c000000004F85BD880000000000005753
-t1334164872
-s22355
-
-N/var/folders/m3/h5rg_z_d6lz3ysb_jm0hy_140000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-eigpioxejzwlsyafgwiwtvdbnkqx/iPhone_Prefix.pch.pth
-t1336851886
-s4792400
-
-Nofxiphone-Info.plist
-c000000004E27311C0000000000000428
-t1311191324
-s1064
-
-CBuild AST from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.mm
-r0
-
-CBuild AST from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/main.mm
-r0
-
-CBuild AST from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.mm
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7b30a5e84560b541^c216b7e84560b541^-540"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'ofxiphone-Info.plist'.Warning: Multiple build commands for output file /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/boatThunder.wavWarning: Multiple build commands for output file /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/sewingMusic.wav3(21%IDEActivityLogMessage2@109"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'ofxiphone-Info.plist'.-358630888#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@214"Warning: Multiple build commands for output file /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/boatThunder.wav-358630888#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@214"Warning: Multiple build commands for output file /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/sewingMusic.wav-358630888#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"B3AFBC1C-C640-4EB4-BCAF-8BAEBB3A9FEB-
-
-CCodeSign /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app
-s358630896.523307
-e358630901.919728
-r1
-xCodeSign
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app
-o/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app: replacing existing signature
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"CodeSign build/Debug-iphoneos/iPhoneGuiExample.appd40f86f04560b541^7e73ebf54560b541^-180"/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/0000000000000000^1118"CodeSign build/Debug-iphoneos/iPhoneGuiExample.app    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 67bffe4813d825c2e736332a022bc9f202285225 --resource-rules=/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/ResourceRules.plist --entitlements /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample.xcent /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app36"59CB139F-49E8-4DBF-A87E-34186370C460-
-
-CCompileC build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/MyGuiView.o /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s358630726.805949
-e358630733.786539
-r1
-xCompileC
-xbuild/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/MyGuiView.o
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.mm
-xnormal
-xarmv7
-xobjective-c++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.mm:9:
-oIn file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.h:11:
-oIn file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:4:
-o../../../addons/ofxiPhone/ofxiPhone.h:8:2: warning: '/*' within block comment [-Wcomment]
-o /***********************************************************************
-o ^
-oIn file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.mm:9:
-oIn file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.h:11:
-oIn file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:5:
-o../../../addons/ofxiPhone/ofxiPhoneExtras.h:9:2: warning: '/*' within block comment [-Wcomment]
-o /***********************************************************************
-o ^
-o2 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.mmea7ace464560b541^2c61c94d4560b541^-1272"In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.mm:9:In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.h:11:In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:4:../../../addons/ofxiPhone/ofxiPhone.h:8:2: warning: '/*' within block comment [-Wcomment] /*********************************************************************** ^In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.mm:9:In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.h:11:In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:5:../../../addons/ofxiPhone/ofxiPhoneExtras.h:9:2: warning: '/*' within block comment [-Wcomment] /*********************************************************************** ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@25"'/*' within block comment-358630733#18446744073709551615#0#3(2@153"In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.mm:9:-358630733#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@144"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.mm0000000000000000^8#8#8#8#153#0#30"Apple LLVM compiler 3.1 Notice--2@153"In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.h:11:-358630733#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@143"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.h0000000000000000^10#9#10#9#179#0#30"Apple LLVM compiler 3.1 Notice--2@146"In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:4:-358630733#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@137"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h0000000000000000^3#9#3#9#43#0#30"Apple LLVM compiler 3.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/addons/ofxiPhone/ofxiPhone.h0000000000000000^7#1#7#1#147#0#29"Lexical or Preprocessor Issue--2@25"'/*' within block comment-358630733#18446744073709551615#0#3(2@153"In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.mm:9:-358630733#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@144"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.mm0000000000000000^8#8#8#8#153#0#30"Apple LLVM compiler 3.1 Notice--2@153"In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.h:11:-358630733#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@143"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.h0000000000000000^10#9#10#9#179#0#30"Apple LLVM compiler 3.1 Notice--2@146"In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:5:-358630733#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@137"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h0000000000000000^4#9#4#9#66#0#30"Apple LLVM compiler 3.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@111"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/addons/ofxiPhone/ofxiPhoneExtras.h0000000000000000^8#1#8#1#235#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@144"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.mm0000000000000000^5224"CompileC build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/MyGuiView.o src/gui/MyGuiView.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.1 -iquote /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample-generated-files.hmap -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample-own-target-headers.hmap -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample-all-target-headers.hmap -iquote /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample-project-headers.hmap -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../libs/glu/include_iphone -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/DerivedSources/armv7 -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/DerivedSources -F/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos -include /var/folders/m3/h5rg_z_d6lz3ysb_jm0hy_140000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-eigpioxejzwlsyafgwiwtvdbnkqx/iPhone_Prefix.pch -MMD -MT dependencies -MF /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/MyGuiView.d --serialize-diagnostics /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/MyGuiView.dia -c /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.mm -o /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/MyGuiView.o36"35BAE0D7-A117-43C6-80FE-220C5D5C5187-
-
-CCompileC build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/main.o /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/main.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s358630726.805644
-e358630733.771066
-r1
-xCompileC
-xbuild/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/main.o
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/main.mm
-xnormal
-xarmv7
-xobjective-c++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/main.mm:3:
-oIn file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:4:
-o../../../addons/ofxiPhone/ofxiPhone.h:8:2: warning: '/*' within block comment [-Wcomment]
-o /***********************************************************************
-o ^
-oIn file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/main.mm:3:
-oIn file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:5:
-o../../../addons/ofxiPhone/ofxiPhoneExtras.h:9:2: warning: '/*' within block comment [-Wcomment]
-o /***********************************************************************
-o ^
-o2 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/main.mm5c74ce464560b541^1f68c54d4560b541^-946"In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/main.mm:3:In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:4:../../../addons/ofxiPhone/ofxiPhone.h:8:2: warning: '/*' within block comment [-Wcomment] /*********************************************************************** ^In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/main.mm:3:In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:5:../../../addons/ofxiPhone/ofxiPhoneExtras.h:9:2: warning: '/*' within block comment [-Wcomment] /*********************************************************************** ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@25"'/*' within block comment-358630733#18446744073709551615#0#2(2@144"In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/main.mm:3:-358630733#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@135"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/main.mm0000000000000000^2#9#2#9#30#0#30"Apple LLVM compiler 3.1 Notice--2@146"In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:4:-358630733#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@137"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h0000000000000000^3#9#3#9#43#0#30"Apple LLVM compiler 3.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/addons/ofxiPhone/ofxiPhone.h0000000000000000^7#1#7#1#147#0#29"Lexical or Preprocessor Issue--2@25"'/*' within block comment-358630733#18446744073709551615#0#2(2@144"In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/main.mm:3:-358630733#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@135"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/main.mm0000000000000000^2#9#2#9#30#0#30"Apple LLVM compiler 3.1 Notice--2@146"In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:5:-358630733#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@137"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h0000000000000000^4#9#4#9#66#0#30"Apple LLVM compiler 3.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@111"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/addons/ofxiPhone/ofxiPhoneExtras.h0000000000000000^8#1#8#1#235#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@135"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/main.mm0000000000000000^5186"CompileC build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/main.o src/main.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.1 -iquote /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample-generated-files.hmap -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample-own-target-headers.hmap -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample-all-target-headers.hmap -iquote /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample-project-headers.hmap -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../libs/glu/include_iphone -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/DerivedSources/armv7 -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/DerivedSources -F/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos -include /var/folders/m3/h5rg_z_d6lz3ysb_jm0hy_140000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-eigpioxejzwlsyafgwiwtvdbnkqx/iPhone_Prefix.pch -MMD -MT dependencies -MF /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/main.dia -c /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/main.mm -o /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/main.o36"F14BB38F-2C43-4B9B-8A0B-6C2797787A35-
-
-CCompileC build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/testApp.o /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s358630726.805679
-e358630733.818246
-r1
-xCompileC
-xbuild/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/testApp.o
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.mm
-xnormal
-xarmv7
-xobjective-c++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.mm:1:
-oIn file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:4:
-o../../../addons/ofxiPhone/ofxiPhone.h:8:2: warning: '/*' within block comment [-Wcomment]
-o /***********************************************************************
-o ^
-oIn file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.mm:1:
-oIn file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:5:
-o../../../addons/ofxiPhone/ofxiPhoneExtras.h:9:2: warning: '/*' within block comment [-Wcomment]
-o /***********************************************************************
-o ^
-o2 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.mm236ace464560b541^2177d14d4560b541^-952"In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.mm:1:In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:4:../../../addons/ofxiPhone/ofxiPhone.h:8:2: warning: '/*' within block comment [-Wcomment] /*********************************************************************** ^In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.mm:1:In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:5:../../../addons/ofxiPhone/ofxiPhoneExtras.h:9:2: warning: '/*' within block comment [-Wcomment] /*********************************************************************** ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@25"'/*' within block comment-358630733#18446744073709551615#0#2(2@147"In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.mm:1:-358630733#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@138"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.mm0000000000000000^0#9#0#9#9#0#30"Apple LLVM compiler 3.1 Notice--2@146"In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:4:-358630733#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@137"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h0000000000000000^3#9#3#9#43#0#30"Apple LLVM compiler 3.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/addons/ofxiPhone/ofxiPhone.h0000000000000000^7#1#7#1#147#0#29"Lexical or Preprocessor Issue--2@25"'/*' within block comment-358630733#18446744073709551615#0#2(2@147"In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.mm:1:-358630733#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@138"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.mm0000000000000000^0#9#0#9#9#0#30"Apple LLVM compiler 3.1 Notice--2@146"In file included from /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h:5:-358630733#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@137"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.h0000000000000000^4#9#4#9#66#0#30"Apple LLVM compiler 3.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@111"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/addons/ofxiPhone/ofxiPhoneExtras.h0000000000000000^8#1#8#1#235#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@138"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.mm0000000000000000^5204"CompileC build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/testApp.o src/testApp.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.1 -iquote /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample-generated-files.hmap -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample-own-target-headers.hmap -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample-all-target-headers.hmap -iquote /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample-project-headers.hmap -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../libs/glu/include_iphone -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/DerivedSources/armv7 -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/DerivedSources -F/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos -include /var/folders/m3/h5rg_z_d6lz3ysb_jm0hy_140000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-eigpioxejzwlsyafgwiwtvdbnkqx/iPhone_Prefix.pch -MMD -MT dependencies -MF /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/testApp.d --serialize-diagnostics /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/testApp.dia -c /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/testApp.mm -o /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/testApp.o36"9718EE3C-9787-4E5B-9A0B-CCA09AF4AFD8-
-
-CCompileXIB /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.xib
-s358630888.739489
-e358630888.944681
-r1
-xCompileXIB
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compiling /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.xib8275c0e84560b541^aed6f1e84560b541^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.xib0000000000000000^1015"CompileXIB src/gui/MyGuiView.xib    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/MyGuiView.nib /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/src/gui/MyGuiView.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"0DEDF5C4-7082-4FDE-9B49-080B28AF0456-
-
-CCopyPNGFile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Default.png bin/data/Default.png
-s358544671.764186
-e358544672.705692
-r1
-xCopyPNGFile
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Default.png
-xbin/data/Default.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/Debug-iphoneos/iPhoneGuiExample.app/Default.png bin/data/Default.png8acdc31ff55eb541^26a9b420f55eb541^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/Default.png0000000000000000^866"CopyPNGFile build/Debug-iphoneos/iPhoneGuiExample.app/Default.png bin/data/Default.png    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" "" /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/Default.png /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Default.png36"E25731C3-0B02-4677-9B83-9B20D5EF5A1C-
-
-CCopyPNGFile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Icon.png bin/data/Icon.png
-s358544671.764173
-e358544672.637444
-r1
-xCopyPNGFile
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Icon.png
-xbin/data/Icon.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile build/Debug-iphoneos/iPhoneGuiExample.app/Icon.png bin/data/Icon.png5fcfc31ff55eb541^b43ca320f55eb541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/Icon.png0000000000000000^854"CopyPNGFile build/Debug-iphoneos/iPhoneGuiExample.app/Icon.png bin/data/Icon.png    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" "" /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/Icon.png /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Icon.png36"284879EC-E290-43BE-AB16-C58D349E616A-
-
-CCopyPNGFile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/button.png bin/data/button.png
-s358544674.511868
-e358544674.875208
-r1
-xCopyPNGFile
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/button.png
-xbin/data/button.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CopyPNGFile build/Debug-iphoneos/iPhoneGuiExample.app/button.png bin/data/button.png601d8322f55eb541^6b0ee022f55eb541^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/button.png0000000000000000^862"CopyPNGFile build/Debug-iphoneos/iPhoneGuiExample.app/button.png bin/data/button.png    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" "" /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/button.png /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/button.png36"3E71FE56-2EB6-4915-B116-329966FB07E9-
-
-CCopyPNGFile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/buttonOff.png bin/data/buttonOff.png
-s358544674.682531
-e358544674.961717
-r1
-xCopyPNGFile
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/buttonOff.png
-xbin/data/buttonOff.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile build/Debug-iphoneos/iPhoneGuiExample.app/buttonOff.png bin/data/buttonOff.pngb4ccae22f55eb541^0134f622f55eb541^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/buttonOff.png0000000000000000^874"CopyPNGFile build/Debug-iphoneos/iPhoneGuiExample.app/buttonOff.png bin/data/buttonOff.png    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" "" /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/buttonOff.png /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/buttonOff.png36"37961850-A057-41D0-AF6C-4E15746E3C56-
-
-CCopyPlistFile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/ofxiphone-Info.plist ofxiphone-Info.plist
-s358544671.764221
-e358544671.965923
-r1
-xCopyPlistFile
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/ofxiphone-Info.plist
-xofxiphone-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Copy ofxiphone-Info.plist3cbcc31ff55eb541^ed4af71ff55eb541^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/ofxiphone-Info.plist0000000000000000^624"CopyPlistFile build/Debug-iphoneos/iPhoneGuiExample.app/ofxiphone-Info.plist ofxiphone-Info.plist    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app -- ofxiphone-Info.plist36"2C54280C-ABA7-4204-BDEB-76C15E11ED75-
-
-CCpResource ../../../libs/openFrameworksCompiled/project/iphone/CoreOF.xcconfig build/Debug-iphoneos/iPhoneGuiExample.app/CoreOF.xcconfig
-s358544671.894933
-e358544671.965924
-r1
-xCpResource
-x../../../libs/openFrameworksCompiled/project/iphone/CoreOF.xcconfig
-xbuild/Debug-iphoneos/iPhoneGuiExample.app/CoreOF.xcconfig
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphoneos/iPhoneGuiExample.app/CoreOF.xcconfig9e3fe51ff55eb541^ad51f71ff55eb541^---0#0#0#-19%DVTDocumentLocation2@181"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/CoreOF.xcconfig000000000080d041^1004"CpResource ../../../libs/openFrameworksCompiled/project/iphone/CoreOF.xcconfig build/Debug-iphoneos/iPhoneGuiExample.app/CoreOF.xcconfig    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/../../../libs/openFrameworksCompiled/project/iphone/CoreOF.xcconfig /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app36"32593AE5-7785-45A6-9FE4-0443C073F34A-
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/iPhoneGuiExample.app/ResourceRules.plist
-s358544671.647621
-e358544671.695877
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
-xbuild/Debug-iphoneos/iPhoneGuiExample.app/ResourceRules.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug-iphoneos/iPhoneGuiExample.app/ResourceRules.plist8bdea51ff55eb541^0228b21ff55eb541^---0#0#0#-19%DVTDocumentLocation2@185"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/ResourceRules.plist000000000080d041^1008"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/iPhoneGuiExample.app/ResourceRules.plist    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app36"ADBCE2C1-0642-488D-95C7-AB7011D43925-
-
-CCpResource Project.xcconfig build/Debug-iphoneos/iPhoneGuiExample.app/Project.xcconfig
-s358544671.764485
-e358544671.893562
-r1
-xCpResource
-xProject.xcconfig
-xbuild/Debug-iphoneos/iPhoneGuiExample.app/Project.xcconfig
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphoneos/iPhoneGuiExample.app/Project.xcconfig51dac31ff55eb541^ecc1e41ff55eb541^---0#0#0#-19%DVTDocumentLocation2@182"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Project.xcconfig000000000080d041^903"CpResource Project.xcconfig build/Debug-iphoneos/iPhoneGuiExample.app/Project.xcconfig    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/Project.xcconfig /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app36"9A1990BB-18AC-4AF0-8CFA-FA6438D596D5-
-
-CCpResource bin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/Highline_trainBirds.wav build/Debug-iphoneos/iPhoneGuiExample.app/Highline_trainBirds.wav
-s358544673.085060
-e358544674.962109
-r1
-xCpResource
-xbin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/Highline_trainBirds.wav
-xbuild/Debug-iphoneos/iPhoneGuiExample.app/Highline_trainBirds.wav
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug-iphoneos/iPhoneGuiExample.app/Highline_trainBirds.wav7bda1521f55eb541^054ef622f55eb541^---0#0#0#-19%DVTDocumentLocation2@189"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Highline_trainBirds.wav000000000080d041^1132"CpResource bin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/Highline_trainBirds.wav build/Debug-iphoneos/iPhoneGuiExample.app/Highline_trainBirds.wav    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/Highline_trainBirds.wav /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app36"B7F83111-58AE-4C63-A285-31513B6300CD-
-
-CCpResource bin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/boatThunder.wav build/Debug-iphoneos/iPhoneGuiExample.app/boatThunder.wav
-s358630847.375252
-e358630847.775924
-r1
-xCpResource
-xbin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/boatThunder.wav
-xbuild/Debug-iphoneos/iPhoneGuiExample.app/boatThunder.wav
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphoneos/iPhoneGuiExample.app/boatThunder.wavac1a60bf4560b541^f0a7c6bf4560b541^---0#0#0#-19%DVTDocumentLocation2@181"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/boatThunder.wav0000000000000000^1108"CpResource bin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/boatThunder.wav build/Debug-iphoneos/iPhoneGuiExample.app/boatThunder.wav    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/boatThunder.wav /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app36"CF349215-6846-4FC1-AB7E-06470F1E8588-
-
-CCpResource bin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/sewingMusic.wav build/Debug-iphoneos/iPhoneGuiExample.app/sewingMusic.wav
-s358630847.374051
-e358630847.880709
-r1
-xCpResource
-xbin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/sewingMusic.wav
-xbuild/Debug-iphoneos/iPhoneGuiExample.app/sewingMusic.wav
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphoneos/iPhoneGuiExample.app/sewingMusic.wav17d45fbf4560b541^5776e1bf4560b541^---0#0#0#-19%DVTDocumentLocation2@181"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/sewingMusic.wav0000000000000000^1108"CpResource bin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/sewingMusic.wav build/Debug-iphoneos/iPhoneGuiExample.app/sewingMusic.wav    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/../../../../../../../../../Dropbox/SpatialM_Final/sounds/050112_Final/allFinalSoundsCompressed/sewingMusic.wav /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app36"FDA58888-14E9-4A44-B34D-224ADEFE2A14-
-
-CCpResource bin/data/boatThunder.wav build/Debug-iphoneos/iPhoneGuiExample.app/boatThunder.wav
-s358630888.752310
-e358630888.948464
-r1
-xCpResource
-xbin/data/boatThunder.wav
-xbuild/Debug-iphoneos/iPhoneGuiExample.app/boatThunder.wav
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphoneos/iPhoneGuiExample.app/boatThunder.wavc1a8c0e84560b541^454839e94560b541^---0#0#0#-19%DVTDocumentLocation2@181"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/boatThunder.wav0000000000000000^918"CpResource bin/data/boatThunder.wav build/Debug-iphoneos/iPhoneGuiExample.app/boatThunder.wav    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/boatThunder.wav /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app36"5EF03388-8D9F-447B-94DC-C5BE7DEFFB18-
-
-CCpResource bin/data/highline.wav build/Debug-iphoneos/iPhoneGuiExample.app/highline.wav
-s358544673.807465
-e358544674.681176
-r1
-xCpResource
-xbin/data/highline.wav
-xbuild/Debug-iphoneos/iPhoneGuiExample.app/highline.wav
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/iPhoneGuiExample.app/highline.wav9fc9ce21f55eb541^9962ae22f55eb541^---0#0#0#-19%DVTDocumentLocation2@178"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/highline.wav000000000080d041^909"CpResource bin/data/highline.wav build/Debug-iphoneos/iPhoneGuiExample.app/highline.wav    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/highline.wav /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app36"78487A5A-B5D5-4556-B741-BDF2F940DD22-
-
-CCpResource bin/data/map.jpg build/Debug-iphoneos/iPhoneGuiExample.app/map.jpg
-s358544674.254965
-e358544674.510592
-r1
-xCpResource
-xbin/data/map.jpg
-xbuild/Debug-iphoneos/iPhoneGuiExample.app/map.jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphoneos/iPhoneGuiExample.app/map.jpgda584122f55eb541^02bb8222f55eb541^---0#0#0#-19%DVTDocumentLocation2@173"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/map.jpg000000000080d041^894"CpResource bin/data/map.jpg build/Debug-iphoneos/iPhoneGuiExample.app/map.jpg    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/map.jpg /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app36"47286E5B-7F39-44D4-813A-76081FEA17FF-
-
-CCpResource bin/data/sewingMusic.wav build/Debug-iphoneos/iPhoneGuiExample.app/sewingMusic.wav
-s358630888.751756
-e358630889.084359
-r1
-xCpResource
-xbin/data/sewingMusic.wav
-xbuild/Debug-iphoneos/iPhoneGuiExample.app/sewingMusic.wav
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphoneos/iPhoneGuiExample.app/sewingMusic.wav6e85c0e84560b541^715539e94560b541^---0#0#0#-19%DVTDocumentLocation2@181"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/sewingMusic.wav0000000000000000^918"CpResource bin/data/sewingMusic.wav build/Debug-iphoneos/iPhoneGuiExample.app/sewingMusic.wav    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/bin/data/sewingMusic.wav /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app36"3FAB8E14-AC87-44AA-AA39-A3DBC1FEF923-
-
-CGenerateDSYMFile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app.dSYM /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/iPhoneGuiExample
-s358630889.114011
-e358630895.178056
-r1
-xGenerateDSYMFile
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app.dSYM
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/iPhoneGuiExample
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection165"Generating /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app.dSYM7e3b1de94560b541^af942def4560b541^---0#0#0#-19%DVTDocumentLocation2@171"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app.dSYM/0000000000000000^815"GenerateDSYMFile build/Debug-iphoneos/iPhoneGuiExample.app.dSYM build/Debug-iphoneos/iPhoneGuiExample.app/iPhoneGuiExample    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/iPhoneGuiExample -o /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app.dSYM36"559A6739-AA33-43AA-AF92-505F8255543D-
-
-CLd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/iPhoneGuiExample normal armv7
-s358630733.826161
-e358630737.329178
-r1
-xLd
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/iPhoneGuiExample
-xnormal
-xarmv7
-old: warning: ignoring file ../../../libs/FreeImage/lib/osx/freeimage.a, missing required architecture armv7 in file
-old: warning: ignoring file ../../../libs/glew/lib/osx/glew.a, file was built for archive which is not the architecture being linked (armv7)
-old: warning: ignoring file ../../../libs/cairo/lib/osx/cairo.a, file was built for archive which is not the architecture being linked (armv7)
-old: warning: ignoring file ../../../libs/glu/lib/iphone/glu.a, file was built for archive which is not the architecture being linked (armv7)
-old: warning: 32-bit absolute address out of range (0x1001FA1C4 max is 4GB): from _inflate_table + 0x00000674 (0x000D077C) to 0x1001FA1C4
-old: warning: 32-bit absolute address out of range (0x1001FA202 max is 4GB): from _inflate_table + 0x00000670 (0x000D077C) to 0x1001FA202
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection171"Link /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/iPhoneGuiExample3fa8d34d4560b541^d44754514560b541^-813"ld: warning: ignoring file ../../../libs/FreeImage/lib/osx/freeimage.a, missing required architecture armv7 in fileld: warning: ignoring file ../../../libs/glew/lib/osx/glew.a, file was built for archive which is not the architecture being linked (armv7)ld: warning: ignoring file ../../../libs/cairo/lib/osx/cairo.a, file was built for archive which is not the architecture being linked (armv7)ld: warning: ignoring file ../../../libs/glu/lib/iphone/glu.a, file was built for archive which is not the architecture being linked (armv7)ld: warning: 32-bit absolute address out of range (0x1001FA1C4 max is 4GB): from _inflate_table + 0x00000674 (0x000D077C) to 0x1001FA1C4ld: warning: 32-bit absolute address out of range (0x1001FA202 max is 4GB): from _inflate_table + 0x00000670 (0x000D077C) to 0x1001FA2026(21%IDEActivityLogMessage2@102"Ignoring file ../../../libs/FreeImage/lib/osx/freeimage.a, missing required architecture armv7 in file-358630734#0#116#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@126"Ignoring file ../../../libs/glew/lib/osx/glew.a, file was built for archive which is not the architecture being linked (armv7)-358630734#116#140#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@128"Ignoring file ../../../libs/cairo/lib/osx/cairo.a, file was built for archive which is not the architecture being linked (armv7)-358630734#256#142#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@127"Ignoring file ../../../libs/glu/lib/iphone/glu.a, file was built for archive which is not the architecture being linked (armv7)-358630734#398#141#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@123"32-bit absolute address out of range (0x1001FA1C4 max is 4GB): from _inflate_table + 0x00000674 (0x000D077C) to 0x1001FA1C4-358630737#539#137#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@123"32-bit absolute address out of range (0x1001FA202 max is 4GB): from _inflate_table + 0x00000670 (0x000D077C) to 0x1001FA202-358630737#676#137#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#0#--2278"Ld build/Debug-iphoneos/iPhoneGuiExample.app/iPhoneGuiExample normal armv7    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos -F/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos -filelist /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/iPhoneGuiExample.LinkFileList -dead_strip -ObjC ../../../libs/freetype/lib/iphone/freetype.a ../../../libs/FreeImage/lib/osx/freeimage.a ../../../libs/FreeImage/lib/iphone/freeimage.a ../../../libs/glew/lib/osx/glew.a ../../../libs/cairo/lib/osx/cairo.a ../../../libs/poco/lib/iphone/PocoFoundation.a ../../../libs/poco/lib/iphone/PocoNet.a ../../../libs/poco/lib/iphone/PocoXML.a ../../../libs/poco/lib/iphone/PocoUtil.a ../../../libs/tess2/lib/iphone/tess2.a ../../../libs/glu/lib/iphone/glu.a ../../../libs/glu/lib/iphone/glu-iphone.a -miphoneos-version-min=3.1 -framework MediaPlayer /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/libs/openFrameworksCompiled/lib/iphone/libofxiPhone_iphoneos_Debug.a -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AudioToolbox -framework OpenAL -framework CoreLocation -framework CoreGraphics -framework AVFoundation -framework CoreMedia -framework CoreVideo -framework MapKit -o /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/iPhoneGuiExample36"6C1A179B-C2E0-425B-AE83-58E0374857EB-
-
-CPhaseScriptExecution "Run Script" /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Script-9255DD331112741900D6945E.sh
-s358630895.185988
-e358630896.225201
-r1
-xPhaseScriptExecution
-xRun Script
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Script-9255DD331112741900D6945E.sh
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'e5b730ef4560b541^33a539f04560b541^---0#0#0#--26971"PhaseScriptExecution "Run Script" build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Script-9255DD331112741900D6945E.sh    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER Claire    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD_32_64_BIT armv7    setenv ARCHS_STANDARD_32_BIT armv7    setenv ARCHS_UNIVERSAL_IPHONE_OS armv7    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build    setenv BUILD_ROOT /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos    setenv CACHE_ROOT /var/folders/m3/h5rg_z_d6lz3ysb_jm0hy_140000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/m3/h5rg_z_d6lz3ysb_jm0hy_140000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/m3/h5rg_z_d6lz3ysb_jm0hy_140000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES NO    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH iPhoneGuiExample.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH iPhoneGuiExample.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/iPhoneGuiExample.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME iPhoneGuiExample.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH iPhoneGuiExample.app/Executables    setenv EXECUTABLE_FOLDER_PATH iPhoneGuiExample.app    setenv EXECUTABLE_NAME iPhoneGuiExample    setenv EXECUTABLE_PATH iPhoneGuiExample.app/iPhoneGuiExample    setenv FILE_LIST /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH iPhoneGuiExample.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME iPhoneGuiExample.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER iPhone_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS NO    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ABOUT_POINTER_SIGNEDNESS NO    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_PROTOTYPE_CONVERSION NO    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_CAIRO "\"../../../libs/cairo/include/cairo\""    setenv HEADER_FMODEX "\"../../../libs/fmodex/include\""    setenv HEADER_FREEIMAGE "\"../../../libs/FreeImage/include\""    setenv HEADER_FREETYPE "\"../../../libs/freetype/include\""    setenv HEADER_FREETYPE2 "\"../../../libs/freetype/include/freetype2\""    setenv HEADER_GLEW "\"../../../libs/glew/include\""    setenv HEADER_GLU "\"../../../libs/glu/include_iphone\""    setenv HEADER_OF "\"../../../libs/openFrameworks/**\""    setenv HEADER_OFXACCELEROMETER "\"../../../addons/ofxAccelerometer/**\""    setenv HEADER_OFXIPHONE "\"../../../addons/ofxiPhone/**\""    setenv HEADER_OFXMULTITOUCH "\"../../../addons/ofxMultiTouch/**\""    setenv HEADER_POCO "\"../../../libs/poco/include\""    setenv HEADER_RTAUDIO "\"../../../libs/rtaudio/include\""    setenv HEADER_SEARCH_PATHS "\"/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/include\" \"../../../libs/openFrameworks/**\" \"../../../addons/ofxiPhone/**\" \"../../../addons/ofxMultiTouch/**\" \"../../../addons/ofxAccelerometer/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtaudio/include\" \"../../../libs/glu/include_iphone\""    setenv HEADER_TESS2 "\"../../../libs/tess2/include\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ofxiphone-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH iPhoneGuiExample.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH iPhoneGuiExample.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/iPhoneGuiExample.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER Claire    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/iPhoneGuiExample.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH iPhoneGuiExample.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample-LinkMap-normal-armv7.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos\" "    setenv LIB_CAIRO "\"../../../libs/cairo/lib/osx/cairo.a\""    setenv LIB_FREEIMAGE "\"../../../libs/FreeImage/lib/osx/freeimage.a\""    setenv LIB_FREEIMAGE_IPHONE "\"../../../libs/FreeImage/lib/iphone/freeimage.a\""    setenv LIB_FREETYPE "\"../../../libs/freetype/lib/iphone/freetype.a\""    setenv LIB_GLEW "\"../../../libs/glew/lib/osx/glew.a\""    setenv LIB_GLU "\"../../../libs/glu/lib/iphone/glu.a\""    setenv LIB_GLU_IPHONE "\"../../../libs/glu/lib/iphone/glu-iphone.a\""    setenv LIB_POCOFOUNDATION_IPHONE "\"../../../libs/poco/lib/iphone/PocoFoundation.a\""    setenv LIB_POCONET_IPHONE "\"../../../libs/poco/lib/iphone/PocoNet.a\""    setenv LIB_POCOUTIL_IPHONE "\"../../../libs/poco/lib/iphone/PocoUtil.a\""    setenv LIB_POCOXML_IPHONE "\"../../../libs/poco/lib/iphone/PocoXML.a\""    setenv LIB_RTAUDIO "\"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv LIB_TESS "\"../../../libs/tess2/lib/osx/tess2.a\""    setenv LIB_TESS_IPHONE "\"../../../libs/tess2/lib/iphone/tess2.a\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal/armv7/iPhoneGuiExample.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH iPhoneGuiExample.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11D50d    setenv MAC_OS_X_VERSION_ACTUAL 1073    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0703    setenv MISC_FLAGS "\"-ObjC\""    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Objects-normal    setenv OBJROOT /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build    setenv OF_CORE_HEADERS "\"../../../libs/openFrameworks/**\" \"../../../addons/ofxiPhone/**\" \"../../../addons/ofxMultiTouch/**\" \"../../../addons/ofxAccelerometer/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtaudio/include\" \"../../../libs/glu/include_iphone\""    setenv OF_CORE_LIBS "\"-ObjC\" \"../../../libs/freetype/lib/iphone/freetype.a\" \"../../../libs/FreeImage/lib/osx/freeimage.a\" \"../../../libs/FreeImage/lib/iphone/freeimage.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/poco/lib/iphone/PocoFoundation.a\" \"../../../libs/poco/lib/iphone/PocoNet.a\" \"../../../libs/poco/lib/iphone/PocoXML.a\" \"../../../libs/poco/lib/iphone/PocoUtil.a\" \"../../../libs/tess2/lib/iphone/tess2.a\"     \"../../../libs/glu/lib/iphone/glu.a\" \"../../../libs/glu/lib/iphone/glu-iphone.a\""    setenv OF_PATH ../../..    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "\"-ObjC\" \"../../../libs/freetype/lib/iphone/freetype.a\" \"../../../libs/FreeImage/lib/osx/freeimage.a\" \"../../../libs/FreeImage/lib/iphone/freeimage.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/poco/lib/iphone/PocoFoundation.a\" \"../../../libs/poco/lib/iphone/PocoNet.a\" \"../../../libs/poco/lib/iphone/PocoXML.a\" \"../../../libs/poco/lib/iphone/PocoUtil.a\" \"../../../libs/tess2/lib/iphone/tess2.a\"     \"../../../libs/glu/lib/iphone/glu.a\" \"../../../libs/glu/lib/iphone/glu-iphone.a\""    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH iPhoneGuiExample.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c++    setenv PKGINFO_FILE_PATH /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/PkgInfo    setenv PKGINFO_PATH iPhoneGuiExample.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH armv7    setenv PLATFORM_PRODUCT_BUILD_VERSION 9B176    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH iPhoneGuiExample.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH iPhoneGuiExample.app/PrivateHeaders    setenv PRODUCT_NAME iPhoneGuiExample    setenv PRODUCT_SETTINGS_PATH /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/ofxiphone-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT iPhoneGuiExample    setenv PROJECT_DERIVED_FILE_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/DerivedSources    setenv PROJECT_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PROJECT_FILE_PATH /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/iPhoneGuiExample.xcodeproj    setenv PROJECT_NAME iPhoneGuiExample    setenv PROJECT_TEMP_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH iPhoneGuiExample.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH iPhoneGuiExample.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk    setenv SDK_NAME iphoneos5.1    setenv SDK_PRODUCT_BUILD_VERSION 9B176    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH iPhoneGuiExample.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/m3/h5rg_z_d6lz3ysb_jm0hy_140000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH iPhoneGuiExample.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv SRCROOT /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME iPhoneGuiExample    setenv TARGET_BUILD_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos    setenv TARGET_NAME iPhoneGuiExample    setenv TARGET_TEMP_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build    setenv TEMP_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build    setenv TEMP_FILES_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build    setenv TEMP_FILE_DIR /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build    setenv TEMP_ROOT /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build    setenv TEST_AFTER_BUILD NO    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH iPhoneGuiExample.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER Claire    setenv USER_APPS_DIR /Users/Claire/Applications    setenv USER_LIBRARY_DIR /Users/Claire/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH iPhoneGuiExample.app/version.plist    setenv VERSION_INFO_BUILDER Claire    setenv VERSION_INFO_FILE iPhoneGuiExample_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:iPhoneGuiExample  PROJECT:iPhoneGuiExample-\""    setenv WARNING_LDFLAGS -no_arch_warnings    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME iPhoneGuiExample.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4E2002    setenv XCODE_VERSION_ACTUAL 0432    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0430    setenv YACC yacc    /bin/sh -c /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/Script-9255DD331112741900D6945E.sh36"D88A419B-3FE1-41C2-98F9-803D87414818-
-
-CProcessInfoPlistFile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Info.plist ofxiphone-Info.plist
-s358544671.647765
-e358544671.754888
-r1
-xProcessInfoPlistFile
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Info.plist
-xofxiphone-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process ofxiphone-Info.plistdae7a51ff55eb541^b342c11ff55eb541^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/ofxiphone-Info.plist0000000000000000^1026"ProcessInfoPlistFile build/Debug-iphoneos/iPhoneGuiExample.app/Info.plist ofxiphone-Info.plist    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ofxiphone-Info.plist -genpkginfo /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/ResourceRules.plist -o /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/Info.plist36"7F7392A2-7C83-4592-A4CB-85ACE99D1E4E-
-
-CProcessPCH++ /Users/Claire/Library/Developer/Xcode/DerivedData/iPhoneGuiExample-cfwwegrwjowqztgxtrwoustsitoo/Index/PrecompiledHeaders/iPhone_Prefix-fkuvsgsujwosaeebkddjvheneqvt_ast/iPhone_Prefix.pch.pth iPhone_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH++ /var/folders/m3/h5rg_z_d6lz3ysb_jm0hy_140000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-eigpioxejzwlsyafgwiwtvdbnkqx/iPhone_Prefix.pch.pth iPhone_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s358544685.689065
-e358544686.073194
-r1
-xProcessPCH++
-x/var/folders/m3/h5rg_z_d6lz3ysb_jm0hy_140000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-eigpioxejzwlsyafgwiwtvdbnkqx/iPhone_Prefix.pch.pth
-xiPhone_Prefix.pch
-xnormal
-xarmv7
-xobjective-c++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile iPhone_Prefix.pch448bb02df55eb541^f9bc122ef55eb541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/iPhone_Prefix.pch0000000000000000^4973"ProcessPCH++ /var/folders/m3/h5rg_z_d6lz3ysb_jm0hy_140000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-eigpioxejzwlsyafgwiwtvdbnkqx/iPhone_Prefix.pch.pth iPhone_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -g -fvisibility-inlines-hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.1 -iquote /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample-generated-files.hmap -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample-own-target-headers.hmap -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample-all-target-headers.hmap -iquote /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample-project-headers.hmap -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtaudio/include -I../../../libs/glu/include_iphone -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/DerivedSources/armv7 -I/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/DerivedSources -F/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos --serialize-diagnostics /var/folders/m3/h5rg_z_d6lz3ysb_jm0hy_140000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-eigpioxejzwlsyafgwiwtvdbnkqx/iPhone_Prefix.pch.dia -c /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/iPhone_Prefix.pch -o /var/folders/m3/h5rg_z_d6lz3ysb_jm0hy_140000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-eigpioxejzwlsyafgwiwtvdbnkqx/iPhone_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/m3/h5rg_z_d6lz3ysb_jm0hy_140000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-eigpioxejzwlsyafgwiwtvdbnkqx/iPhone_Prefix.pch.d36"4FE7ACA1-02AA-4E05-BC28-9FC444BC0D3F-
-
-CProcessProductPackaging "/Users/Claire/Library/MobileDevice/Provisioning Profiles/1E1AF6A7-AFEF-4C1D-AD1A-B431A04FBAF3.mobileprovision" /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/embedded.mobileprovision
-s358544691.812060
-e358544691.818122
-r1
-xProcessProductPackaging
-x/Users/Claire/Library/MobileDevice/Provisioning Profiles/1E1AF6A7-AFEF-4C1D-AD1A-B431A04FBAF3.mobileprovision
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/embedded.mobileprovision
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection202"ProcessProductPackaging "/Users/Claire/Library/MobileDevice/Provisioning Profiles/1E1AF6A7-AFEF-4C1D-AD1A-B431A04FBAF3.mobileprovision" build/Debug-iphoneos/iPhoneGuiExample.app/embedded.mobileprovisione206d033f55eb541^ac72d133f55eb541^---0#0#0#-19%DVTDocumentLocation2@190"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/embedded.mobileprovision0000000000000000^832"ProcessProductPackaging "/Users/Claire/Library/MobileDevice/Provisioning Profiles/1E1AF6A7-AFEF-4C1D-AD1A-B431A04FBAF3.mobileprovision" build/Debug-iphoneos/iPhoneGuiExample.app/embedded.mobileprovision    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/Claire/Library/MobileDevice/Provisioning Profiles/1E1AF6A7-AFEF-4C1D-AD1A-B431A04FBAF3.mobileprovision" -o /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app/embedded.mobileprovision36"7C5C1CFA-4BD2-4B2F-88B2-1649C7F90682-
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample.xcent
-s358544691.885948
-e358544691.890042
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample.xcent
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection234"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample.xcent08e4e233f55eb541^a9d9e333f55eb541^---0#0#0#-19%DVTDocumentLocation2@213"file://localhost/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample.xcent000000000080d041^922"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample.xcent    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/iPhoneGuiExample.build/Debug-iphoneos/iPhoneGuiExample.build/iPhoneGuiExample.xcent36"DBAD323D-F4AF-42FD-9DAD-5D38D639F3BA-
-
-CTouch /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app
-s358630896.249373
-e358630896.506497
-r1
-xTouch
-x/Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection155"Touch /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app0de23ff04560b541^88be87f04560b541^---0#0#0#--523"Touch build/Debug-iphoneos/iPhoneGuiExample.app    cd /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Claire/Desktop/ITP/software/of_preRelease_v007_iphone/apps/iPhoneSpecificExamples/SwingButton_050212/build/Debug-iphoneos/iPhoneGuiExample.app36"073D0C0C-E869-4596-9682-0E3ED027C4F1-
-
